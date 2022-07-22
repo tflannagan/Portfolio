@@ -6,7 +6,7 @@
 }
 
 :root {
-  --color-primary: #051C2C;
+  --color-primary: #191919;
   --color-secondary: #59CBE8;
   --color-hover: #E93CAC;
   --color-white: #FFFFFF;
@@ -43,7 +43,21 @@ body {
   font-size: 1.1rem;
   color: var(--color-white);
   transition: all .4s ease-in-out;
+  overflow: hidden;
 }
+
+body::-webkit-scrollbar {
+    width: 1em;
+  }
+   
+  body::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  }
+   
+  body::-webkit-scrollbar-thumb {
+    background-color: darkgrey;
+    outline: 1px solid slategrey;
+  }
 
 a {
   display: inline-block;
@@ -78,12 +92,26 @@ section {
 
 .active {
   display: block;
-  animation: appear 1s ease-in-out;
+  overflow: hidden;
+  animation: bounce-in-right 1.2s ease-in-out;
   transform: translateY(0) scaleY(1);
   @keyframes appear {
       0%{ transform: translateY(-100%) scaleY(0); }
       100%{ transform: translateY(0) scaleY(1); }
   }
+  @keyframes bounce-in-right {
+    0% {
+      opacity: 0;
+      transform: translateX(2000px);
+    }
+    60% {
+      opacity: 1;
+      transform: translateX(-30px);
+    }
+    80% { transform: translateX(10px); }
+    100% { transform: translateX(0); }
+  }
+  overflow: auto;
 }
 
 //Controls

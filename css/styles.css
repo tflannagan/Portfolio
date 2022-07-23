@@ -43,7 +43,7 @@ body {
   font-size: 1.1rem;
   color: var(--color-white);
   transition: all 0.4s ease-in-out;
-  overflow: hidden;
+  overflow: auto;
 }
 
 body::-webkit-scrollbar {
@@ -91,7 +91,6 @@ section {
 
 .active {
   display: block;
-  overflow: hidden;
   -webkit-animation: bounce-in-right 1.2s ease-in-out;
           animation: bounce-in-right 1.2s ease-in-out;
   transform: translateY(0) scaleY(1);

@@ -91,35 +91,40 @@ section {
 
 .active {
   display: block;
-  -webkit-animation: bounce-in-right 1.2s ease-in-out;
-          animation: bounce-in-right 1.2s ease-in-out;
+  -webkit-animation: appear 1.2s ease-in-out;
+          animation: appear 1.2s ease-in-out;
   transform: translateY(0) scaleY(1);
-  overflow: auto;
+  overflow: hidden;
+  overflow: hidden;
 }
 @-webkit-keyframes appear {
   0% {
     transform: translateY(-100%) scaleY(0);
+    opacity: 0;
   }
   100% {
     transform: translateY(0) scaleY(1);
+    opacity: 1;
   }
 }
 @keyframes appear {
   0% {
     transform: translateY(-100%) scaleY(0);
+    opacity: 0;
   }
   100% {
     transform: translateY(0) scaleY(1);
+    opacity: 1;
   }
 }
 @-webkit-keyframes bounce-in-right {
   0% {
     opacity: 0;
-    transform: translateX(2000px);
+    transform: translateX(800px);
   }
   60% {
     opacity: 1;
-    transform: translateX(-30px);
+    transform: translateX(-20px);
   }
   80% {
     transform: translateX(10px);
@@ -131,11 +136,11 @@ section {
 @keyframes bounce-in-right {
   0% {
     opacity: 0;
-    transform: translateX(2000px);
+    transform: translateX(800px);
   }
   60% {
     opacity: 1;
-    transform: translateX(-30px);
+    transform: translateX(-20px);
   }
   80% {
     transform: translateX(10px);

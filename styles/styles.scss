@@ -5,6 +5,7 @@
   list-style: none;
 }
 
+
 :root {
   --color-primary: #191919;
   --color-secondary: #59CBE8;
@@ -92,25 +93,26 @@ section {
 
 .active {
   display: block;
-  animation: bounce-in-right 1.2s ease-in-out;
+  animation: appear 1.2s ease-in-out;
   transform: translateY(0) scaleY(1);
+  overflow: hidden;
   @keyframes appear {
-      0%{ transform: translateY(-100%) scaleY(0); }
-      100%{ transform: translateY(0) scaleY(1); }
+      0%{ transform: translateY(-100%) scaleY(0); opacity: 0; }
+      100%{ transform: translateY(0) scaleY(1); opacity: 1;}
   }
   @keyframes bounce-in-right {
     0% {
       opacity: 0;
-      transform: translateX(2000px);
+      transform: translateX(800px);
     }
     60% {
       opacity: 1;
-      transform: translateX(-30px);
+      transform: translateX(-20px);
     }
     80% { transform: translateX(10px); }
     100% { transform: translateX(0); }
   }
-  overflow: auto;
+  overflow: hidden;
 }
 
 //Controls

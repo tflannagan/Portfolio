@@ -703,8 +703,24 @@ section {
   margin-left: 1.5rem;
 }
 .contact-content-con .right-contact .submit-btn {
+  font-weight: inherit;
+  font-size: inherit;
+  font-family: inherit;
   display: flex;
   justify-content: flex-start;
+  border-radius: 15px;
+  padding: 0.8rem 1.1rem;
+  outline: none;
+  border: none;
+  background-color: var(--color-grey-5);
+  color: var(--color-white);
+  resize: none;
+}
+.contact-content-con .right-contact .submit-btn:hover {
+  transition: all 0.8s ease;
+  transform: scale(1.2);
+  filter: drop-shadow(5px 5px 10px var(--color-secondary)) invert(3%);
+  color: var(--color-secondary);
 }
 
 /*Independent components*/

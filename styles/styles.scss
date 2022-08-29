@@ -648,8 +648,24 @@ section {
           }
       }
       .submit-btn {
+        font-weight: inherit;
+        font-size: inherit;
+        font-family: inherit;
           display: flex;
           justify-content: flex-start;
+          border-radius: 15px;
+          padding: .8rem 1.1rem;
+          outline: none;
+          border: none;
+          background-color: var(--color-grey-5);
+              color: var(--color-white);
+              resize: none;
+              &:hover {
+                transition: all .8s ease;
+                transform: scale(1.2);
+                filter: drop-shadow(5px 5px 10px var(--color-secondary)) invert(3%);
+                color: var(--color-secondary); 
+            }
       }
   }
 }

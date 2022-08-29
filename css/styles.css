@@ -718,7 +718,7 @@ section {
 }
 .contact-content-con .right-contact .submit-btn:hover {
   transition: all 0.8s ease;
-  transform: scale(1.2);
+  transform: scale(1.1);
   filter: drop-shadow(5px 5px 10px var(--color-secondary)) invert(3%);
   color: var(--color-secondary);
 }

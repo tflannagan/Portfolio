@@ -576,7 +576,7 @@ section {
   filter: drop-shadow(16px 16px 30px var(--color-secondary)) invert(3%);
 }
 .blogs .blog img {
-  border-radius: 10%;
+  border-radius: 2%;
   width: 100%;
   height: 300px;
   -o-object-fit: cover;
@@ -590,30 +590,18 @@ section {
   margin-top: -7px;
   padding: 1.1rem;
   align-items: center;
+  justify-content: center;
   border-top: 8px solid var(--color-secondary);
 }
 .blogs .blog .blog-text h4 {
   font-size: 1.5rem;
   text-align: center;
-  margin-bottom: 0.7rem;
   transition: all 0.4s ease-in-out;
   cursor: pointer;
 }
 .blogs .blog .blog-text h4:hover {
   transition: all 0.8s ease;
   transform: scale(1.1);
-  filter: drop-shadow(16px 16px 30px var(--color-secondary)) invert(3%);
-  color: var(--color-secondary);
-}
-.blogs .blog .blog-text p {
-  color: var(--color-grey-2);
-  line-height: 2rem;
-  text-align: center;
-  padding-bottom: 1rem;
-}
-.blogs .blog .blog-text p:hover {
-  transition: all 0.8s ease;
-  transform: scale(1.2);
   filter: drop-shadow(16px 16px 30px var(--color-secondary)) invert(3%);
   color: var(--color-secondary);
 }

@@ -243,7 +243,7 @@ section {
           clip-path: polygon(0 0, 46% 0, 79% 50%, 0% 100%);
 }
 .header-content .left-header .image {
-  border-radius: 1000px;
+  border-radius: 50rem;
   height: 90%;
   width: 68%;
   margin-left: 4rem;
@@ -251,7 +251,7 @@ section {
   transition: all 0.5s ease-in-out;
 }
 .header-content .left-header .image img {
-  border-radius: 1000px;
+  border-radius: 50rem;
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
@@ -262,6 +262,11 @@ section {
 .header-content .left-header .image img:hover {
   transition: all 0.8s ease;
   filter: drop-shadow(16px 16px 30px var(--color-secondary)) invert(3%);
+}
+@media all and (max-device-width: 480px) {
+  .header-content .image {
+    border-radius: 100%;
+  }
 }
 .header-content .right-header {
   display: flex;
@@ -731,6 +736,11 @@ section {
   padding: 10px;
 }
 
+@media all and (max-device-width: 480px) {
+  .btn-con-live {
+    left: 50px;
+  }
+}
 .main-btn {
   border-radius: 30px;
   color: inherit;

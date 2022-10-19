@@ -491,7 +491,7 @@ section {
   height: 300px;
   -o-object-fit: cover;
      object-fit: cover;
-  border-radius: 5px;
+  border-radius: 15px;
 }
 .portfolios .portfolio-item .hover-items {
   width: 100%;
@@ -539,6 +539,7 @@ section {
   margin: 0 1rem;
 }
 .portfolios .portfolio-item .hover-items .icons .icon:hover {
+  border-radius: 50%;
   background-color: var(--color-white);
 }
 .portfolios .portfolio-item .hover-items .icons .icon:hover i {

@@ -230,11 +230,7 @@ section {
           }
       }
   }
-  @media all and (max-device-width: 480px) {
-    .image {
-      border-radius: 100%;
-    }
-  }
+
   .right-header {
       display: flex;
       flex-direction: column;

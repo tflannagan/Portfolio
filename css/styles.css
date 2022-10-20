@@ -263,11 +263,6 @@ section {
   transition: all 0.8s ease;
   filter: drop-shadow(16px 16px 30px var(--color-secondary)) invert(3%);
 }
-@media all and (max-device-width: 480px) {
-  .header-content .image {
-    border-radius: 100%;
-  }
-}
 .header-content .right-header {
   display: flex;
   flex-direction: column;

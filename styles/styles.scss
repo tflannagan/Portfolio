@@ -196,32 +196,33 @@ section {
       }
       .h-shape {
           transition: all .4s ease-in-out;
-          width: 65%;
+          width: 85%;
           height: 100%;
           background-color: var(--color-secondary);
           position: absolute;
           left: 0;
           top: 0;
           z-index: -1;
-          clip-path: polygon(0 0, 46% 0, 79% 50%, 0% 100%);
+          clip-path: polygon(40% 0, 56% 80%, 39% 40%, 0% 100%);
           
       }
       .image {
-          border-radius: 100000px;
-          
-          height: 90%;
-          width: 68%;
+          border-radius: 1000000000px;
+          position: absolute;
+          height: 65%;
+          width: 65%;
           margin-left: 4rem;
           background-color: var(--color-black);
           transition: all .5s ease-in-out;
+          transition: transform 1s;
           img {
-              border-radius: 100000px;
+              border-radius: 1000000000px;
               
               width: 100%;
               height: 100%;
               object-fit: cover;
-              transition: all .4s ease-in-out;
-              filter: scalia(25%) blur(0.5px);
+              transition: all .9s ease-in-out;
+              // filter: scalia(25%) blur(0.5px);
              
               &:hover{
                 transition: all .8s ease;
@@ -229,8 +230,17 @@ section {
               }
           }
       }
+      .cursor {
+        position: relative;
+        width: 10px;
+        height: 10px;
+        background-color: #dbe1e8;
+        border-radius: 100%;
+        transition: transform 1s;
+        filter: drop-shadow(16px 16px 30px var(--color-white));
+        }
+     }
   }
-
   .right-header {
       display: flex;
       flex-direction: column;
@@ -244,8 +254,9 @@ section {
           margin: 1.5rem 0;
           line-height: 2rem;
       }
+      
   }
-}
+
 
 /*About*/
 .about-container {
@@ -689,18 +700,7 @@ section {
   padding-bottom: 5px;
 
 }
-.btn-con-live {
-    display: flex;
-    position: relative;
-    left: 100px;
-    align-self: flex-start;
-    padding: 10px;
-  }
-  @media all and (max-device-width: 480px) {
-    .btn-con-live {
-      left: 50px;
-    }
-  }
+
 .main-btn {
   border-radius: 30px;
   color: inherit;
@@ -742,6 +742,30 @@ section {
 
 }
 
+.live-btn {
+  left: 10px;
+  border-radius: 30px;
+  color: inherit;
+  font-weight: 600;
+  position: relative;
+  border: 1px solid var(--color-secondary);
+  display: flex;
+  align-self: flex-start;
+  align-items: center;
+  overflow: hidden;
+  
+  .btn-icon {
+      background-color: var(--color-secondary);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 50%;
+      padding: 1rem;
+     
+  }
+
+
+}
 .main-title {
   text-align: center;
   h2 {

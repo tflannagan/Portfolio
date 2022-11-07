@@ -174,9 +174,6 @@
   
 }
 
-
-
-
 @media screen and (max-width:1250px){
   .blogs{
       grid-template-columns: repeat(2, 1fr);
@@ -236,8 +233,9 @@
           display: none;
       }
       .image{
-          width: 90% !important;
-          margin: 0 auto !important;
+        display: none;
+        //   width: 60% !important;
+        //   margin: 0 auto !important;
           
       }
   }

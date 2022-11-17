@@ -39,7 +39,12 @@
 }
 
 body {
-  background-color: var(--color-primary);
+  
+  background: linear-gradient(
+    to bottom,
+    var(--color-primary),
+    var(--color-secondary));
+  
   font-family: 'Comfortaa', cursive;
   font-size: 1.1rem;
   color: var(--color-white);
@@ -56,7 +61,7 @@ body::-webkit-scrollbar {
   }
    
   body::-webkit-scrollbar-thumb {
-    background-color: darkgrey;
+    background-color: var(--color-secondary);
     outline: 1px solid slategrey;
   }
 
@@ -87,7 +92,10 @@ section {
   display: none;
   transform: translateY(-100%) scale(0);
   transition: all .4s ease-in-out;
-  background-color: var(--color-primary);
+  background: linear-gradient(
+    to bottom,
+    var(--color-secondary),
+    var(--color-primary));
 }
 
 
@@ -269,7 +277,7 @@ section {
       grid-template-columns: repeat(2, 1fr);
       grid-gap: 2rem;
       .about-item {
-          border: 1px solid var(--color-grey-5);
+          border: 1px solid var(--color-grey-2);
           border-radius: 25px;
           transition: all .4s ease-in-out;
           box-shadow: 1px 2px 15px rgba(0,0,0,.1);
@@ -286,7 +294,7 @@ section {
               .large-text {
                   font-size: 3rem;
                   font-weight: 700;
-                  color: var(--color-secondary);
+                  color: var(--color-grey0);
               }
               .small-text {
                   padding-left: 3rem;
@@ -773,17 +781,18 @@ section {
       text-transform: uppercase;
       font-size: 4rem;
       font-weight: 700;
-      span { color: var(--color-secondary); }
+      span { color: var(--color-grey0); }
       .bg-text {
           position: absolute;
           top: 50%;
           left: 50%;
-          color: var(--color-grey-5);
+          color: var(--color-grey0);
           transition: all .4s ease-in-out;
           z-index: -1;
           transform: translate(-50%, -50%);
           font-weight: 800;
-          font-size: 6.3rem;
+          font-size: 5.3rem;
+          opacity: 0.2;
       }
   }
 }

@@ -38,7 +38,7 @@
 }
 
 body {
-  background-color: var(--color-primary);
+  background: linear-gradient(to bottom, var(--color-primary), var(--color-secondary));
   font-family: "Comfortaa", cursive;
   font-size: 1.1rem;
   color: var(--color-white);
@@ -55,7 +55,7 @@ body::-webkit-scrollbar-track {
 }
 
 body::-webkit-scrollbar-thumb {
-  background-color: darkgrey;
+  background-color: var(--color-secondary);
   outline: 1px solid slategrey;
 }
 
@@ -86,7 +86,7 @@ section {
   display: none;
   transform: translateY(-100%) scale(0);
   transition: all 0.4s ease-in-out;
-  background-color: var(--color-primary);
+  background: linear-gradient(to bottom, var(--color-secondary), var(--color-primary));
 }
 
 .active {
@@ -304,7 +304,7 @@ section {
   grid-gap: 2rem;
 }
 .about-container .right-about .about-item {
-  border: 1px solid var(--color-grey-5);
+  border: 1px solid var(--color-grey-2);
   border-radius: 25px;
   transition: all 0.4s ease-in-out;
   box-shadow: 1px 2px 15px rgba(0, 0, 0, 0.1);
@@ -323,7 +323,7 @@ section {
 .about-container .right-about .about-item .abt-text .large-text {
   font-size: 3rem;
   font-weight: 700;
-  color: var(--color-secondary);
+  color: var(--color-grey0);
 }
 .about-container .right-about .about-item .abt-text .small-text {
   padding-left: 3rem;
@@ -807,18 +807,19 @@ section {
   font-weight: 700;
 }
 .main-title h2 span {
-  color: var(--color-secondary);
+  color: var(--color-grey0);
 }
 .main-title h2 .bg-text {
   position: absolute;
   top: 50%;
   left: 50%;
-  color: var(--color-grey-5);
+  color: var(--color-grey0);
   transition: all 0.4s ease-in-out;
   z-index: -1;
   transform: translate(-50%, -50%);
   font-weight: 800;
-  font-size: 6.3rem;
+  font-size: 5.3rem;
+  opacity: 0.2;
 }
 
 .about-container .left-about p {

@@ -535,11 +535,15 @@ section {
 }
 
 .portfolios {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 2rem;
+  display: flex;
+  gap: 5rem;
+  // display: grid;
+  // grid-template-columns: repeat(4, 1fr);
+  // column-gap: 2rem;
+  // row-gap: 3rem;
   justify-self: center;
   justify-content: center;
+  align-content: center;
  
   // grid-gap: 6rem;
   margin-top: 3rem;
@@ -547,13 +551,11 @@ section {
   border: 3px solid var(--color-primary);
   
   
-
-  
   // &:hover {
   //   width: 50vh;
   // }
   .portfolio-item {
-      width: 30vh;
+      width: 50vh;
       height: 40vh;
       position: relative;
       border-radius: 45px;
@@ -562,13 +564,13 @@ section {
       
       
       img {
-          width: 30vh;
+          width: 50vh;
           height: 40vh;
           object-fit: cover;
           border-radius: 45px;
       }
       .hover-items {
-        width: 30vh;
+        width: 50vh;
         height: 40vh;
           background-color: var(--color-secondary);
           position: absolute;

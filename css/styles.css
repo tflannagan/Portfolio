@@ -542,22 +542,29 @@ section {
   justify-self: center;
   justify-content: center;
   align-content: center;
+  align-items: center;
   margin-top: 3rem;
   border: 3px solid var(--color-primary);
 }
 .portfolios .portfolio-item {
-  width: 50vh;
+  width: 10vh;
   height: 40vh;
   position: relative;
   border-radius: 45px;
   box-shadow: 6px -6px 15px #0b0b0b, -6px 6px 15px #272727;
 }
-.portfolios .portfolio-item img {
+.portfolios .portfolio-item:hover {
   width: 50vh;
+}
+.portfolios .portfolio-item img {
+  width: 10vh;
   height: 40vh;
   -o-object-fit: cover;
      object-fit: cover;
   border-radius: 45px;
+}
+.portfolios .portfolio-item img:hover {
+  width: 50vh;
 }
 .portfolios .portfolio-item .hover-items {
   width: 50vh;
@@ -995,7 +1002,8 @@ section {
     grid-template-columns: repeat(1, 1fr);
   }
   .portfolios {
-    grid-template-columns: repeat(1, 1fr);
+    display: flex;
+    flex-direction: row;
     padding-bottom: 6rem;
     margin-top: 1rem;
   }
@@ -1089,9 +1097,6 @@ section {
   .blogs {
     grid-template-columns: repeat(2, 1fr);
     margin-top: 6rem;
-  }
-  .portfolios {
-    grid-template-columns: repeat(2, 1fr);
   }
   .container {
     padding: 7rem 11rem;

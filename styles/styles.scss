@@ -570,16 +570,16 @@ section {
           height: 40vh;
           object-fit: cover;
           border-radius: 45px;
-          
+          transition: all 1s ease;
           &:hover {
-            display: none;
+            opacity: 0;
           
             
           }
       }
      
       .hover-items {
-        width: 50vh;
+        width: 60vh;
         height: 40vh;
           background-color: var(--color-secondary);
           position: absolute;

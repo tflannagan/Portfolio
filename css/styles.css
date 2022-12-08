@@ -256,6 +256,7 @@ section {
 }
 .header-content .left-header .image {
   border-radius: 40px;
+  border: 2px solid var(--color-secondary);
   position: relative;
   height: 30vh;
   width: 30vh;

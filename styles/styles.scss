@@ -540,12 +540,14 @@ section {
 }
 
 .portfolios {
-  display: flex;
+  // display: flex;
+  // flex-direction: row;
   gap: 5rem;
-  // display: grid;
-  // grid-template-columns: repeat(4, 1fr);
-  // column-gap: 2rem;
-  // row-gap: 3rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 2rem;
+  row-gap: 3rem;
+  
   justify-self: center;
   justify-content: center;
   align-content: center;
@@ -554,12 +556,17 @@ section {
   // grid-gap: 6rem;
   margin-top: 3rem;
   
-  border: 3px solid var(--color-primary);
+  
   
   
   
   .portfolio-item {
-      width: 30vh;
+    
+    
+    border: 1px solid var(--color-primary);
+    align-content: center;
+    justify-content: center;
+      width: 50vh;
       height: 40vh;
       position: relative;
       border-radius: 45px;
@@ -567,11 +574,11 @@ section {
       -6px 6px 15px var(--box-color-2);
       transition: all 1s ease;
       &:hover {
-        width: 60vh;
+        scale: 0.9;
       }
       
       img {
-          width: 30vh;
+          width: 50vh;
           height: 40vh;
           object-fit: cover;
           border-radius: 45px;
@@ -584,7 +591,7 @@ section {
       }
      
       .hover-items {
-        width: 60vh;
+        width: 50vh;
         height: 40vh;
           background-color: var(--color-secondary);
           position: absolute;

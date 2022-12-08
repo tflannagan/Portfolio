@@ -554,23 +554,27 @@ section {
   
   
   .portfolio-item {
-      width: 10vh;
+      width: 30vh;
       height: 40vh;
       position: relative;
       border-radius: 45px;
       box-shadow: 6px -6px 15px #0b0b0b,
       -6px 6px 15px #272727;
+      transition: all 1s ease;
       &:hover {
-        width: 50vh;
+        width: 60vh;
       }
       
       img {
-          width: 10vh;
+          width: 30vh;
           height: 40vh;
           object-fit: cover;
           border-radius: 45px;
+          
           &:hover {
-            width: 50vh;
+            display: none;
+          
+            
           }
       }
      

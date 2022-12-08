@@ -547,24 +547,25 @@ section {
   border: 3px solid var(--color-primary);
 }
 .portfolios .portfolio-item {
-  width: 10vh;
+  width: 30vh;
   height: 40vh;
   position: relative;
   border-radius: 45px;
   box-shadow: 6px -6px 15px #0b0b0b, -6px 6px 15px #272727;
+  transition: all 1s ease;
 }
 .portfolios .portfolio-item:hover {
-  width: 50vh;
+  width: 60vh;
 }
 .portfolios .portfolio-item img {
-  width: 10vh;
+  width: 30vh;
   height: 40vh;
   -o-object-fit: cover;
      object-fit: cover;
   border-radius: 45px;
 }
 .portfolios .portfolio-item img:hover {
-  width: 50vh;
+  display: none;
 }
 .portfolios .portfolio-item .hover-items {
   width: 50vh;
@@ -936,13 +937,13 @@ section {
     border-radius: 40px;
     right: 250px;
     top: 180px;
-    height: 2rem;
-    width: 2rem;
+    height: 50px;
+    width: 50px;
     margin: 0;
   }
   .left-header .image img {
-    height: 2rem;
-    width: 2rem;
+    height: 50px;
+    width: 1em;
     border-radius: 40px;
   }
   .right-header {

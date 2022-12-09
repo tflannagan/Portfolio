@@ -1,7 +1,7 @@
 # Portfolio
 
-<h1> This is my portfolio !! </h2>
+<h1>💻 Ty Flannagan's Portfolio !! 💻</h2>
 
-<p> This is still in develepment and I am very open to feedback to please reach out to me! <3 </p>
+<p> Please reach out and let's build something great together!</p>
 
 <img src="img\readme-bg.png" alt="img" width="300" />

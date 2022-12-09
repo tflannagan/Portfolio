@@ -72,6 +72,11 @@ a {
   font-family: inherit;
 }
 
+.demo-link {
+  font-weight: 700;
+  color: rgba(255, 0, 0, 0.3);
+}
+
 header {
   min-height: 100vh;
   color: var(--color-white);
@@ -551,6 +556,7 @@ section {
   justify-content: center;
   align-content: center;
   align-items: center;
+  grid-gap: 3rem;
   margin-top: 3rem;
 }
 .portfolios .portfolio-item {
@@ -589,6 +595,8 @@ section {
   display: flex;
   justify-content: center;
   align-items: center;
+  justify-items: center;
+  align-content: center;
   flex-direction: column;
   opacity: 0;
   transform: scale(0);
@@ -1014,10 +1022,33 @@ section {
     grid-template-columns: repeat(1, 1fr);
   }
   .portfolios {
-    display: flex;
-    flex-direction: row;
-    padding-bottom: 6rem;
-    margin-top: 1rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-self: center;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    align-items: center;
+  }
+  .portfolios .portfolio-item {
+    width: 30vh;
+    align-content: center;
+    justify-content: center;
+    height: 20vh;
+  }
+  .portfolios .portfolio-item:hover {
+    scale: 0.3;
+  }
+  .portfolios .portfolio-item img {
+    width: 30vh;
+    height: 20vh;
+  }
+  .portfolios .portfolio-item:hover {
+    scale: 0.3;
+  }
+  .portfolios .hover-items {
+    width: 30vh;
+    height: 20vh;
   }
   .blogs {
     grid-template-columns: repeat(1, 1fr);
@@ -1094,6 +1125,16 @@ section {
   }
   .about-container .right-about {
     padding-top: 2.5rem;
+  }
+  .portfolios {
+    overflow: wrap;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    justify-items: center;
   }
   .main-title h2 {
     font-size: 4rem;

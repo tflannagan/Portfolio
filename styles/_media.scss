@@ -18,6 +18,7 @@
         align-items: center;
         align-content: center;
         justify-content: center;
+        
     }
   
     .left-header{
@@ -114,12 +115,39 @@
     }
   
     .portfolios{
-        display: flex;
-        flex-direction: row;
-        padding-bottom: 6rem;
-        margin-top: 1rem;
+        // width: 25vh;
+            display: grid;
+            grid-template-columns: 1fr;
+        // padding-bottom: 6rem;
+        // margin-top: 1rem;
+        justify-self: center;
+        justify-content: center;
+        justify-items: center;
+        align-content: center;
+        align-items: center;
+        .portfolio-item {
+            width: 30vh;
+            align-content: center;
+    justify-content: center;
+      height: 20vh;
+      &:hover {
+        scale: 0.3;
+      }
+      img {
+        
+        width: 30vh;
+      height: 20vh;
+      }
+      &:hover {
+        scale: 0.3;
+      }
+        }
+
+        .hover-items {
+            width: 30vh;
+            height: 20vh;
     }
-  
+}
     .blogs{
       
         grid-template-columns: repeat(1, 1fr);
@@ -222,6 +250,17 @@
             padding-top: 2.5rem;
         }
     }
+
+    .portfolios{
+        overflow: wrap;
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        justify-items: center;
+    }
     .main-title{
         h2{
             font-size: 4rem;
@@ -240,9 +279,7 @@
         grid-template-columns: repeat(2, 1fr);
         margin-top: 6rem;
     }
-    .portfolios{
-        // grid-template-columns: repeat(2, 1fr);
-    }
+    
     .header-content .right-header{
     //   display: flex;
     //   flex-direction: column-reverse;

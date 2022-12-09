@@ -116,36 +116,47 @@
   
     .portfolios{
         // width: 25vh;
-            display: grid;
-            grid-template-columns: 1fr;
+        display: grid;
+        grid-template-columns: 1fr;
         // padding-bottom: 6rem;
         // margin-top: 1rem;
-        justify-self: center;
+        // justify-self: center;
+        // justify-content: center;
+        // justify-items: center;
+        // align-content: center;
+        // align-items: center;
+        .portfolio-item {
+            width: 40vh;
+            height: 40vh;
+            margin-top: 1rem;
+            align-content: center;
+            align-items: center;
+            justify-content: center;
+            justify-items: center;
+            justify-self: center;
+            
+                &:hover {
+            //         box-shadow: 8px 8px 16px var(--box-color-1),
+            //   -8px -8px 16px var(--box-color-2);
+                }
+            img {
+                width: 40vh;
+                height: 40vh;
+            }
+            &:hover {
+            //     box-shadow: 8px 8px 16px var(--box-color-1),
+            //   -8px -8px 16px var(--box-color-2);
+            }
+    }
+
+    .hover-items {
+        width: 40vh;
+        height: 40vh;
+        align-items: center;
+        align-content: center;
         justify-content: center;
         justify-items: center;
-        align-content: center;
-        align-items: center;
-        .portfolio-item {
-            width: 30vh;
-            align-content: center;
-    justify-content: center;
-      height: 20vh;
-      &:hover {
-        scale: 0.3;
-      }
-      img {
-        
-        width: 30vh;
-      height: 20vh;
-      }
-      &:hover {
-        scale: 0.3;
-      }
-        }
 
-        .hover-items {
-            width: 30vh;
-            height: 20vh;
     }
 }
     .blogs{
@@ -207,7 +218,7 @@
     // }
 }
 //Between 768 - 1023 (Tablet)
-@media screen and (min-width: 768px) and(max-width: 1023px) {
+@media screen and (min-width: 768px) and(max-width: 1650px) {
     .container{
         padding: 7rem 6rem;
         align-content: center;
@@ -255,7 +266,7 @@
         overflow: wrap;
         width: 100%;
         display: grid;
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr 1fr;
         justify-content: center;
         align-content: center;
         align-items: center;
@@ -274,7 +285,7 @@
     }
 }
 //Greater than 1024 (Desktop)
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1651px) {
     .blogs{
         grid-template-columns: repeat(2, 1fr);
         margin-top: 6rem;

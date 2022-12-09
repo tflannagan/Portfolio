@@ -621,6 +621,7 @@ section {
 }
 .portfolios .portfolio-item .hover-items .desc-text:hover {
   color: var(--color-secondary);
+  -webkit-text-stroke: 1px var(--color-primary);
   text-shadow: 8px 8px 16px var(--box-color-1), -8px -8px 16px var(--box-color-2);
 }
 .portfolios .portfolio-item .hover-items .icons {

@@ -4,3 +4,4 @@
 
 <p> This is still in develepment and I am very open to feedback to please reach out to me! <3 </p>
 
+<img src="../images/readme-bg.png" alt="img" width="300" />

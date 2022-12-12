@@ -749,6 +749,7 @@ section {
 //Contact section
 .contact-content-con {
   display: flex;
+  
   padding-top: 3.5rem;
   .left-contact {
       flex: 2;
@@ -782,9 +783,17 @@ section {
               }
           }
       }
-
+      .contact-items {
+        display: flex;
+       
+      }
       .contact-icon {
           display: flex;
+          align-items: center;
+          align-content: center;
+          justify-content: center;
+          justify-items: center;
+          justify-self: center;
           margin-top: 2rem;
           a {
               display: flex;

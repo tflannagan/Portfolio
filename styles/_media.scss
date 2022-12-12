@@ -184,22 +184,41 @@
     .contact-content-con .right-contact{
         margin-bottom: 6rem;
     }
-  
-    .contact-item{
-        flex-direction: column;
-        margin: 1rem 0;
-        p{
-            font-size: 15px;
-            color: var(--color-grey-2);
-        }
-        span{
-            font-size: 15px;
-        }
-        .icon{
-            grid-template-columns: 25px 1fr;
+
+    .contact-content-con {
+       
+        .left-contact {
+           
+           
+            text-align: center;
+            flex: 2;
+            h4 {
+                margin-top: 1rem;
+                font-size: 1rem;
+                text-transform: uppercase;
+            }
+            p {
+                margin: 1rem 0 1rem 0;
+                line-height: 2rem;
+            }
+            .contact-info {
+                .contact-item{
+                    flex-direction: column;
+                    margin: 1rem 0;
+                    p{
+                        font-size: 15px;
+                        color: var(--color-grey-2);
+                    }
+                    span{
+                        font-size: 15px;
+                    }
+                    .icon{
+                        grid-template-columns: 25px 1fr;
+                    }
+                }
+            }
         }
     }
-   
     .main-title{
         h2{
             font-size: 2rem;

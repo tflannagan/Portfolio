@@ -748,8 +748,16 @@ section {
   align-items: center;
   font-size: 1.3rem;
 }
+.contact-content-con .left-contact .contact-items {
+  display: flex;
+}
 .contact-content-con .left-contact .contact-icon {
   display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  justify-items: center;
+  justify-self: center;
   margin-top: 2rem;
 }
 .contact-content-con .left-contact .contact-icon a {
@@ -1073,18 +1081,31 @@ section {
   .contact-content-con .right-contact {
     margin-bottom: 6rem;
   }
-  .contact-item {
+  .contact-content-con .left-contact {
+    text-align: center;
+    flex: 2;
+  }
+  .contact-content-con .left-contact h4 {
+    margin-top: 1rem;
+    font-size: 1rem;
+    text-transform: uppercase;
+  }
+  .contact-content-con .left-contact p {
+    margin: 1rem 0 1rem 0;
+    line-height: 2rem;
+  }
+  .contact-content-con .left-contact .contact-info .contact-item {
     flex-direction: column;
     margin: 1rem 0;
   }
-  .contact-item p {
+  .contact-content-con .left-contact .contact-info .contact-item p {
     font-size: 15px;
     color: var(--color-grey-2);
   }
-  .contact-item span {
+  .contact-content-con .left-contact .contact-info .contact-item span {
     font-size: 15px;
   }
-  .contact-item .icon {
+  .contact-content-con .left-contact .contact-info .contact-item .icon {
     grid-template-columns: 25px 1fr;
   }
   .main-title h2 {

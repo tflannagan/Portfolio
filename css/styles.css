@@ -26,7 +26,7 @@
 }
 
 .light-mode {
-  --color-primary: #FFFFFF;
+  --color-primary: #fafafa;
   --color-secondary: #7265ff;
   --color-hover: #ff39eb;
   --color-white: #454e56;
@@ -920,7 +920,7 @@ section {
 .main-title h2 {
   position: relative;
   text-transform: uppercase;
-  font-size: 5rem;
+  font-size: 4rem;
   font-weight: 700;
 }
 .main-title h2 span {
@@ -935,7 +935,7 @@ section {
   z-index: -1;
   transform: translate(-50%, -50%);
   font-weight: 800;
-  font-size: 5.3rem;
+  font-size: 4.3rem;
   opacity: 0.01;
 }
 

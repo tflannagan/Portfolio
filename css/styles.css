@@ -233,7 +233,7 @@ section {
   align-items: center;
   align-content: center;
   justify-content: center;
-  margin: 5rem 0 0 0;
+  margin: 5rem 7rem 0 0;
   min-height: 20vh;
 }
 .header-content .left-header {
@@ -242,8 +242,8 @@ section {
   justify-content: center;
   position: relative;
   padding: 1px;
-  margin: 3rem 0 0 0;
-  width: 15vh;
+  margin: 1rem 0 0 0;
+  width: 25vh;
   height: 20vh;
   top: -150px;
   left: 150px;
@@ -261,11 +261,11 @@ section {
 }
 .header-content .left-header .image {
   margin: 2rem 0 0 0;
-  border-radius: 40px;
+  border-radius: 45px;
   border: 2px solid var(--color-secondary);
   position: relative;
-  height: 20vh;
-  width: 20vh;
+  height: 25vh;
+  width: 25vh;
   background-color: var(--color-black);
   transition: all 1s ease-in-out;
   transition: transform 1s;

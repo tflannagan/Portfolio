@@ -229,12 +229,12 @@ section {
 /*Header-content*/
 .header-content {
   display: flex;
-  flex-direction: column-reverse;
+  flex-direction: row;
   align-items: center;
   align-content: center;
   justify-content: center;
   margin: 5rem 0 0 0;
-  min-height: 100vh;
+  min-height: 20vh;
 }
 .header-content .left-header {
   display: flex;
@@ -243,10 +243,10 @@ section {
   position: relative;
   padding: 1px;
   margin: 3rem 0 0 0;
-  width: 30vh;
-  height: 30vh;
-  top: -270px;
-  left: 220px;
+  width: 15vh;
+  height: 20vh;
+  top: -150px;
+  left: 150px;
 }
 .header-content .left-header .h-shape {
   transition: all 0.4s ease-in-out;
@@ -260,12 +260,12 @@ section {
           clip-path: polygon(80% 50%, 56% 80%, 39% 40%, 50% 100%);
 }
 .header-content .left-header .image {
-  margin: 6rem 0 0 0;
+  margin: 2rem 0 0 0;
   border-radius: 40px;
   border: 2px solid var(--color-secondary);
   position: relative;
-  height: 30vh;
-  width: 30vh;
+  height: 20vh;
+  width: 20vh;
   background-color: var(--color-black);
   transition: all 1s ease-in-out;
   transition: transform 1s;
@@ -1130,7 +1130,7 @@ section {
   }
   .header-content {
     display: flex;
-    flex-direction: column-reverse;
+    flex-direction: row;
   }
   .header-content .left-header {
     height: 25vh;
@@ -1145,7 +1145,7 @@ section {
     align-items: center;
     height: 25vh;
     width: 25vh;
-    top: 50px;
+    top: -100px;
   }
   .right-header {
     width: 90%;

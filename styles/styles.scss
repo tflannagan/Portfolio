@@ -202,13 +202,13 @@ section {
 /*Header-content*/
 .header-content {
   display: flex;
-  flex-direction: column-reverse;
+  flex-direction:row;
   align-items: center;
   align-content: center;
  
   justify-content: center;
   margin: 5rem 0 0 0;
-  min-height: 100vh;
+  min-height: 20vh;
   
   .left-header {
       display: flex;
@@ -217,10 +217,11 @@ section {
       position: relative;
       padding: 1px;
       margin: 3rem 0 0 0;
-      width:30vh;
-      height:30vh;
-      top: -270px;
-      left: 220px;
+      width:15vh;
+      height:20vh;
+      top: -150px;
+      left: 150px;
+      
       // -webkit-border-radius: 40px;
       // border-radius: 50%;
       
@@ -245,12 +246,12 @@ section {
           
       }
       .image {
-        margin: 6rem 0 0 0;
+        margin: 2rem 0 0 0;
           border-radius: 40px;
           border: 2px solid var(--color-secondary);
           position: relative;
-          height: 30vh;
-          width: 30vh;
+          height: 20vh;
+          width: 20vh;
           background-color: var(--color-black);
           transition: all 1s ease-in-out;
           transition: transform 1s;

@@ -239,7 +239,7 @@
     //   display: none;
     // }
 }
-//Between 768 - 1023 (Tablet)
+//Between 768 - 1650 (Tablet)
 @media screen and (min-width: 768px) and(max-width: 1650px) {
 .container{
         padding: 7rem 6rem;
@@ -248,7 +248,7 @@
 
 .header-content{
         display: flex;
-        flex-direction: column-reverse;
+        flex-direction: row;
         // align-items: center;
         // justify-content: center;
         // padding-bottom: 6rem;
@@ -264,7 +264,7 @@
             align-items: center;
             height: 25vh;
           width: 25vh;
-           top: 50px;
+           top: -100px;
         }
         
     }
@@ -316,7 +316,7 @@
         }
     }
 }
-//Greater than 1024 (Desktop)
+//Greater than 1651 (Desktop)
 @media screen and (min-width: 1651px) {
     .blogs{
         grid-template-columns: repeat(2, 1fr);
@@ -363,3 +363,4 @@
         }
     }
 }
+

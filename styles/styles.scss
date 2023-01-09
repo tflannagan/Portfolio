@@ -330,15 +330,15 @@ section {
   .right-header {
     padding: 0;
       display: flex;
-      width: 110vh;
-      height: 60vh;
+      width: 100vw;
+      height: 75vh;
       flex-direction: column;
       align-content: center;
       justify-content: center;
       // right: 520px;
       // left: 400px;
-      padding: 5rem;
-      margin: 7vh;
+      padding: 12rem;
+      
       -webkit-border-radius: 50px;
       border-radius: 70px;
       // background: linear-gradient(45deg, #1b1b1b, #171717);
@@ -950,7 +950,7 @@ section {
   text-align: center;
   h2 {
       position: relative;
-      text-transform: uppercas e;
+      text-transform: uppercase;
       font-size: 4rem;
       font-weight: 700;
       span { color: var(--color-secondary); }

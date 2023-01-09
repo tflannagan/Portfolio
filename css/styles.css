@@ -323,13 +323,12 @@ section {
 .right-header {
   padding: 0;
   display: flex;
-  width: 110vh;
-  height: 60vh;
+  width: 100vw;
+  height: 75vh;
   flex-direction: column;
   align-content: center;
   justify-content: center;
-  padding: 5rem;
-  margin: 7vh;
+  padding: 12rem;
   border-radius: 70px;
   box-shadow: -5px 5px 6px var(--box-color-1), 5px -5px 6px var(--box-color-2);
 }
@@ -904,7 +903,7 @@ section {
 }
 .main-title h2 {
   position: relative;
-  text-transform: uppercas e;
+  text-transform: uppercase;
   font-size: 4rem;
   font-weight: 700;
 }
@@ -1110,7 +1109,7 @@ section {
   .container {
     display: flex;
     flex-direction: column;
-    padding: 5rem 4rem;
+    padding: 2rem 7rem;
     align-content: center;
   }
   .header-content .left-header {

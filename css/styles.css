@@ -90,7 +90,7 @@ section {
   position: absolute;
   left: 0;
   top: 0;
-  padding: 3rem 18rem;
+  padding: 1rem 2rem;
 }
 
 .container {
@@ -362,8 +362,8 @@ section {
 .about-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  padding-top: 3.5rem;
-  padding-bottom: 5rem;
+  padding-top: 2rem;
+  padding-bottom: 3rem;
 }
 .about-container .right-about {
   display: grid;
@@ -410,15 +410,16 @@ section {
   background-color: var(--color-grey-0);
 }
 .about-container .left-about {
-  padding-right: 5rem;
+  padding-right: 0rem;
 }
 .about-container .left-about p {
   line-height: 2rem;
+  font-size: 1rem;
   padding: 1rem;
   color: var(--color-grey-1);
 }
 .about-container .left-about h4 {
-  font-size: 2rem;
+  font-size: 1.3rem;
   text-transform: uppercase;
 }
 
@@ -550,7 +551,7 @@ section {
 }
 
 .port-text {
-  padding: 2rem 0;
+  padding: 1rem 0;
   text-align: center;
 }
 
@@ -566,7 +567,7 @@ section {
   align-content: center;
   align-items: center;
   grid-gap: 3rem;
-  margin-top: 3rem;
+  margin-top: 1rem;
 }
 .portfolios .portfolio-item {
   border: 1px solid var(--color-primary);
@@ -736,6 +737,7 @@ section {
   text-transform: uppercase;
 }
 .contact-content-con .left-contact p {
+  text-align: center;
   margin: 1rem 0;
   line-height: 2rem;
 }
@@ -902,8 +904,8 @@ section {
 }
 .main-title h2 {
   position: relative;
-  text-transform: uppercase;
-  font-size: 5rem;
+  text-transform: uppercas e;
+  font-size: 4rem;
   font-weight: 700;
 }
 .main-title h2 span {
@@ -918,7 +920,7 @@ section {
   z-index: -1;
   transform: translate(-50%, -50%);
   font-weight: 800;
-  font-size: 4.3rem;
+  font-size: 2.3rem;
   opacity: 0.01;
 }
 
@@ -1097,7 +1099,7 @@ section {
     font-size: 2rem;
   }
   .main-title h2 span {
-    font-size: 2.3rem;
+    font-size: 2rem;
   }
   .main-title h2 .bg-text {
     text-align: center;
@@ -1108,7 +1110,7 @@ section {
   .container {
     display: flex;
     flex-direction: column;
-    padding: 12rem 12rem;
+    padding: 5rem 4rem;
     align-content: center;
   }
   .header-content .left-header {
@@ -1154,13 +1156,13 @@ section {
     justify-items: center;
   }
   .main-title h2 {
-    font-size: 4rem;
+    font-size: 3rem;
   }
   .main-title h2 span {
-    font-size: 4rem;
+    font-size: 3rem;
   }
   .main-title h2 .bg-text {
-    font-size: 4.5rem;
+    font-size: 2.5rem;
   }
 }
 @media screen and (min-width: 1151px) {
@@ -1169,7 +1171,7 @@ section {
     margin-top: 6rem;
   }
   .container {
-    padding: 7rem 11rem;
+    padding: 2rem 9rem;
   }
   .contact-content-con {
     flex-direction: column;
@@ -1188,7 +1190,10 @@ section {
   .contact-content-con .right-contact {
     margin-bottom: 6rem;
   }
+  .main-title h2 {
+    font-size: 3rem;
+  }
   .main-title h2 .bg-text {
-    font-size: 7.5rem;
+    font-size: 2.5rem;
   }
 }/*# sourceMappingURL=styles.css.map */

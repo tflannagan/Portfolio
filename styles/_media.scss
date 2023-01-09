@@ -226,7 +226,7 @@
         h2{
             font-size: 2rem;
             span{
-                font-size: 2.3rem;
+                font-size: 2rem;
             }
             .bg-text{
               text-align: center;
@@ -244,7 +244,7 @@
 .container{
     display: flex;
     flex-direction: column;
-        padding: 12rem 12rem;
+        padding: 5rem 4rem;
         align-content: center;
         
     }
@@ -310,12 +310,12 @@
 
 .main-title{
         h2{
-            font-size: 4rem;
+            font-size: 3rem;
             span{
-                font-size: 4rem;
+                font-size: 3rem;
             }
             .bg-text{
-                font-size: 4.5rem;
+                font-size: 2.5rem;
             }
         }
     }
@@ -336,7 +336,7 @@
     }
 
     .container{
-        padding: 7rem 11rem;
+        padding: 2rem 9rem;
     }
   
     .contact-content-con{
@@ -361,8 +361,9 @@
   
     .main-title{
         h2{
+            font-size: 3rem;
             .bg-text{
-                font-size: 7.5rem;
+                font-size: 2.5rem;
             }
         }
     }

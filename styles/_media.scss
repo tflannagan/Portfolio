@@ -57,16 +57,17 @@
         align-content: center;
         // grid-row: 1;
         // padding-right: 10rem !important;
-        height: 90vh;
-        width: 60vw;
-        margin: 0;
+        height: 60vh;
+        width: 50vw;
+        margin: 1rem 0rem 1rem 0rem;
         .name{
-            font-size: 1.5rem !important;
+            font-size: 2.5rem ;
             text-align: center;
             padding-top: 1rem;
         }
         p {
-            font-size: 1rem;
+            display: none;
+            font-size: 1.5rem;
         }
     }
     .header-content .left-header .image{
@@ -129,8 +130,8 @@
         // align-content: center;
         // align-items: center;
         .portfolio-item {
-            width: 40vh;
-            height: 40vh;
+            width: 20vh;
+            height: 20vh;
             margin-top: 1rem;
             align-content: center;
             align-items: center;
@@ -143,8 +144,8 @@
             //   -8px -8px 16px var(--box-color-2);
                 }
             img {
-                width: 40vh;
-                height: 40vh;
+                width: 20vh;
+                height: 20vh;
             }
             &:hover {
             //     box-shadow: 8px 8px 16px var(--box-color-1),
@@ -234,6 +235,13 @@
             }
         }
     }
+
+    .main-btn {
+        justify-content: center;
+        align-content: center;
+        margin: 4rem 0rem 0rem 0rem;
+       
+    }
   
     // .image {
     //   display: none;
@@ -322,6 +330,10 @@
 }
 //Greater than 1651 (Desktop)
 @media screen and (min-width: 1151px) {
+    h1 {
+        margin: 1rem 1rem 1rem 1rem;
+    }
+    
     .blogs{
         grid-template-columns: repeat(2, 1fr);
         margin-top: 6rem;
@@ -361,7 +373,8 @@
   
     .main-title{
         h2{
-            font-size: 5rem;
+            margin: 2rem 0rem 0rem 0rem;
+            font-size: 4rem;
             .bg-text{
                 font-size: 2.5rem;
             }

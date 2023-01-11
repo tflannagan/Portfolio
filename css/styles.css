@@ -72,11 +72,6 @@ a {
   font-family: inherit;
 }
 
-.demo-link {
-  font-weight: 700;
-  color: rgba(255, 0, 0, 0.3);
-}
-
 header {
   min-height: 100vh;
   color: var(--color-white);
@@ -323,12 +318,13 @@ section {
 .right-header {
   padding: 0;
   display: flex;
-  width: 90vw;
+  width: 70vw;
   height: 65vh;
   flex-direction: column;
   align-content: center;
   justify-content: center;
-  padding: 12rem;
+  margin: 5rem 5rem 1rem 5rem;
+  padding: 3rem;
   border-radius: 70px;
   box-shadow: -5px 5px 6px var(--box-color-1), 5px -5px 6px var(--box-color-2);
 }
@@ -340,8 +336,9 @@ section {
   box-shadow: 12px -12px 24px var(--box-color-1), -12px 12px 24px var(--box-color-2);
 }
 .right-header .name {
+  margin: 0;
   text-align: center;
-  font-size: 4rem;
+  font-size: 3rem;
 }
 .right-header .name span {
   color: var(--color-secondary);
@@ -350,10 +347,10 @@ section {
   text-align: center;
 }
 .right-header p {
-  padding: 20px;
+  padding: 5px;
   text-align: center;
   font-size: calc(1px + 1rem);
-  margin: 1.5rem 0;
+  margin: 0rem 0;
   line-height: 2rem;
 }
 
@@ -859,13 +856,14 @@ section {
   position: relative;
   border: 1px solid var(--color-primary);
   display: flex;
-  align-self: flex-start;
+  align-self: center;
   align-items: center;
-  margin: 1rem 0rem 0rem 0rem;
+  margin: 3rem 0rem 3rem 12rem;
   overflow: hidden;
   box-shadow: -5px 5px 6px var(--box-color-1), 5px -5px 6px var(--box-color-2);
 }
 .main-btn .btn-text {
+  font-size: 1rem;
   padding: 0 2rem;
 }
 .main-btn .btn-icon {
@@ -969,17 +967,18 @@ section {
     align-items: center;
     justify-content: center;
     align-content: center;
-    height: 90vh;
-    width: 60vw;
-    margin: 0;
+    height: 60vh;
+    width: 50vw;
+    margin: 1rem 0rem 1rem 0rem;
   }
   .right-header .name {
-    font-size: 1.5rem !important;
+    font-size: 2.5rem;
     text-align: center;
     padding-top: 1rem;
   }
   .right-header p {
-    font-size: 1rem;
+    display: none;
+    font-size: 1.5rem;
   }
   .header-content .left-header .image {
     margin: 0 auto;
@@ -1026,8 +1025,8 @@ section {
     grid-template-columns: 1fr;
   }
   .portfolios .portfolio-item {
-    width: 40vh;
-    height: 40vh;
+    width: 20vh;
+    height: 20vh;
     margin-top: 1rem;
     align-content: center;
     align-items: center;
@@ -1036,8 +1035,8 @@ section {
     justify-self: center;
   }
   .portfolios .portfolio-item img {
-    width: 40vh;
-    height: 40vh;
+    width: 20vh;
+    height: 20vh;
   }
   .portfolios .hover-items {
     width: 40vh !important;
@@ -1105,6 +1104,11 @@ section {
     text-align: center;
     font-size: 2.3rem;
   }
+  .main-btn {
+    justify-content: center;
+    align-content: center;
+    margin: 4rem 0rem 0rem 0rem;
+  }
 }
 @media screen and (min-width: 768px) and (max-width: 1150px) {
   .container {
@@ -1166,6 +1170,9 @@ section {
   }
 }
 @media screen and (min-width: 1151px) {
+  h1 {
+    margin: 1rem 1rem 1rem 1rem;
+  }
   .blogs {
     grid-template-columns: repeat(2, 1fr);
     margin-top: 6rem;
@@ -1191,7 +1198,8 @@ section {
     margin-bottom: 6rem;
   }
   .main-title h2 {
-    font-size: 5rem;
+    margin: 2rem 0rem 0rem 0rem;
+    font-size: 4rem;
   }
   .main-title h2 .bg-text {
     font-size: 2.5rem;

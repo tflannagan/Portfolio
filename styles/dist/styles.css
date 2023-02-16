@@ -223,8 +223,7 @@ section {
   left: 0;
   top: 0;
   z-index: -1;
-  -webkit-clip-path: polygon(80% 50%, 56% 80%, 39% 40%, 50% 100%);
-          clip-path: polygon(80% 50%, 56% 80%, 39% 40%, 50% 100%);
+  clip-path: polygon(80% 50%, 56% 80%, 39% 40%, 50% 100%);
 }
 .header-content .left-header .image {
   margin: 2rem 0 0 0;
@@ -237,16 +236,37 @@ section {
   transition: all 1s ease-in-out;
   transition: transform 1s;
   box-shadow: -5px 5px 6px var(--box-color-1), 5px -5px 6px var(--box-color-2);
+  -webkit-animation: roll-in-blurred-left 1.2s cubic-bezier(0.23, 1, 0.32, 1) 0.7s both;
   animation: roll-in-blurred-left 1.2s cubic-bezier(0.23, 1, 0.32, 1) 0.7s both;
 }
-@keyframes roll-in-blurred-left {
+@-webkit-keyframes roll-in-blurred-left {
   0% {
+    -webkit-transform: translateX(-1000px) rotate(-720deg);
     transform: translateX(-1000px) rotate(-720deg);
+    -webkit-filter: blur(50px);
     filter: blur(50px);
     opacity: 0;
   }
   100% {
+    -webkit-transform: translateX(0) rotate(0deg);
     transform: translateX(0) rotate(0deg);
+    -webkit-filter: blur(0);
+    filter: blur(0);
+    opacity: 1;
+  }
+}
+@keyframes roll-in-blurred-left {
+  0% {
+    -webkit-transform: translateX(-1000px) rotate(-720deg);
+    transform: translateX(-1000px) rotate(-720deg);
+    -webkit-filter: blur(50px);
+    filter: blur(50px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0) rotate(0deg);
+    transform: translateX(0) rotate(0deg);
+    -webkit-filter: blur(0);
     filter: blur(0);
     opacity: 1;
   }
@@ -255,8 +275,7 @@ section {
   border-radius: 40px;
   width: 100%;
   height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   transition: all 0.9s ease-in-out;
 }
 .header-content .left-header .image img:hover {
@@ -284,6 +303,7 @@ section {
   justify-content: center;
   margin: 5rem 5rem 1rem 5rem;
   padding: 3rem;
+  -webkit-border-radius: 50px;
   border-radius: 70px;
   box-shadow: -5px 5px 6px var(--box-color-1), 5px -5px 6px var(--box-color-2);
 }
@@ -514,8 +534,7 @@ section {
   gap: 5rem;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  -moz-column-gap: 2rem;
-       column-gap: 2rem;
+  column-gap: 2rem;
   row-gap: 3rem;
   justify-self: center;
   justify-content: center;
@@ -541,8 +560,7 @@ section {
 .portfolios .portfolio-item img {
   width: 50vh;
   height: 40vh;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   border-radius: 45px;
   transition: all 1s ease;
 }
@@ -652,8 +670,7 @@ section {
   border-radius: 2%;
   width: 100%;
   height: 300px;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
   filter: grayscale(100%);
@@ -889,10 +906,12 @@ section {
   header {
     padding: 0 !important;
   }
+
   .theme-btn {
     width: 50px;
     height: 50px;
   }
+
   .header-content {
     margin: 1rem 0 0 0;
     display: flex;
@@ -923,6 +942,7 @@ section {
     width: 100%;
     border-radius: 40px;
   }
+
   .right-header {
     align-items: center;
     justify-content: center;
@@ -940,10 +960,12 @@ section {
     display: none;
     font-size: 1.5rem;
   }
+
   .header-content .left-header .image {
     margin: 0 auto;
     width: 90%;
   }
+
   .controls {
     top: auto;
     bottom: 0;
@@ -957,6 +979,7 @@ section {
   .controls .control {
     margin: 1rem 0.3rem;
   }
+
   .about-container {
     grid-template-columns: repeat(1, 1fr);
   }
@@ -970,16 +993,20 @@ section {
   .about-container .left-about p {
     padding-left: 0;
   }
+
   .timeline {
     grid-template-columns: repeat(1, 1fr);
     padding-bottom: 6rem;
   }
+
   .container {
     padding: 2rem 2.5rem !important;
   }
+
   .about-stats .progress-bars {
     grid-template-columns: repeat(1, 1fr);
   }
+
   .portfolios {
     display: grid;
     grid-template-columns: 1fr;
@@ -1006,10 +1033,12 @@ section {
     justify-content: center;
     justify-items: center;
   }
+
   .blogs {
     grid-template-columns: repeat(1, 1fr);
     padding-bottom: 6rem;
   }
+
   .contact-content-con {
     flex-direction: column;
   }
@@ -1017,16 +1046,20 @@ section {
     margin-left: 0;
     margin-top: 2.5rem;
   }
+
   .contact-content-con .right-contact .i-c-2 {
     flex-direction: column;
   }
+
   .contact-content-con .right-contact .i-c-2 :last-child {
     margin-left: 0;
     margin-top: 1.5rem;
   }
+
   .contact-content-con .right-contact {
     margin-bottom: 6rem;
   }
+
   .contact-content-con .left-contact {
     text-align: center;
     flex: 2;
@@ -1054,6 +1087,7 @@ section {
   .contact-content-con .left-contact .contact-info .contact-item .icon {
     grid-template-columns: 25px 1fr;
   }
+
   .main-title h2 {
     font-size: 2rem;
   }
@@ -1064,6 +1098,7 @@ section {
     text-align: center;
     font-size: 2.3rem;
   }
+
   .main-btn {
     justify-content: center;
     align-content: center;
@@ -1077,6 +1112,7 @@ section {
     padding: 2rem 7rem;
     align-content: center;
   }
+
   .header-content .left-header {
     height: 15vh;
     width: 15vh;
@@ -1091,6 +1127,7 @@ section {
     height: 15vh;
     width: 15vh;
   }
+
   .right-header {
     width: 90%;
     margin: 0;
@@ -1100,15 +1137,18 @@ section {
     text-align: center;
     padding: 2rem;
   }
+
   .about-container {
     grid-template-columns: repeat(1, 1fr);
   }
   .about-container .right-about {
     padding-top: 2.5rem;
   }
+
   .about-container .left-about {
     padding-right: 0rem;
   }
+
   .portfolios {
     overflow: wrap;
     width: 100%;
@@ -1119,6 +1159,7 @@ section {
     align-items: center;
     justify-items: center;
   }
+
   .main-title h2 {
     font-size: 3rem;
   }
@@ -1133,13 +1174,16 @@ section {
   h1 {
     margin: 1rem 1rem 1rem 1rem;
   }
+
   .blogs {
     grid-template-columns: repeat(2, 1fr);
     margin-top: 6rem;
   }
+
   .container {
     padding: 2rem 9rem;
   }
+
   .contact-content-con {
     flex-direction: column;
   }
@@ -1147,16 +1191,20 @@ section {
     margin-left: 0;
     margin-top: 2.5rem;
   }
+
   .contact-content-con .right-contact .i-c-2 {
     flex-direction: column;
   }
+
   .contact-content-con .right-contact .i-c-2 :last-child {
     margin-left: 0;
     margin-top: 1.5rem;
   }
+
   .contact-content-con .right-contact {
     margin-bottom: 6rem;
   }
+
   .main-title h2 {
     margin: 2rem 0rem 0rem 0rem;
     font-size: 4rem;
@@ -1164,4 +1212,4 @@ section {
   .main-title h2 .bg-text {
     font-size: 2.5rem;
   }
-}/*# sourceMappingURL=styles.css.map */
+}

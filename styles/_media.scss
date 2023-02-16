@@ -154,14 +154,16 @@
     }
 
     .hover-items {
-        width: 40vh !important;
-        height: 40vh;
+        width: 20vh !important;
+        height: 20vh;
         align-items: center;
         align-content: center;
         justify-content: center;
         justify-items: center;
 
     }
+
+   
     }
     .blogs{
       
@@ -248,7 +250,7 @@
     // }
 }
 //Between 768 - 1650 (Tablet)
-@media screen and (min-width: 768px) and(max-width: 1150px) {
+@media screen and (min-width: 768px) and (max-width: 1150px) {
 .container{
     display: flex;
     flex-direction: column;

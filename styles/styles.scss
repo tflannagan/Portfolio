@@ -714,6 +714,43 @@ section {
   
 }
 
+.fa-container {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  margin: 1rem 0rem;
+}
+
+.fa-react  {
+  margin: 1rem 0rem 0rem 0rem;
+  scale: 1.5;
+  color: #fff;
+  &:hover {
+    color: var(--color-primary);
+  }
+}
+
+.fa-html5 {
+  margin: 1rem 0rem 0rem 0rem;
+  scale: 1.5;
+  color: #fff;
+  &:hover {
+    color: var(--color-primary);
+  }
+}
+
+.fa-css3-alt
+{
+  margin: 1rem 0rem 0rem 0rem;
+  scale: 1.5;
+  color: #fff;
+  &:hover {
+    color: var(--color-primary);
+  }
+} 
+
+
+
 //Blogs Section
 .blogs {
   display: grid;

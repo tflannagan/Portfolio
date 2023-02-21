@@ -315,7 +315,7 @@ section {
   box-shadow: 12px -12px 24px var(--box-color-1), -12px 12px 24px var(--box-color-2);
 }
 .right-header .name {
-  margin: 1rem 0rem 0rem 0rem;
+  margin: 2rem 0rem 0rem 0rem;
   text-align: center;
   font-size: 3rem;
 }

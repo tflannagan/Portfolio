@@ -6,7 +6,7 @@ Welcome to my portfolio projects repository! This is a collection of the key pro
 
 Here are some of the technologies I've used across these projects:
 
-- **Programming Languages**: JavaScript
+- **Programming Languages**: JavaScript, Python, Scala
 - **Web Development**: HTML5, CSS3, JavaScript
 - **Other Technologies**: Git, VS Code, Figma
 

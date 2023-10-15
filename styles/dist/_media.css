@@ -1,7 +1,3 @@
-.about-container .left-about p {
-  padding-left: 0;
-}
-
 @media screen and (max-width: 767px) {
   header {
     padding: 0 !important;
@@ -15,7 +11,7 @@
   .header-content {
     margin: 1rem 0 0 0;
     display: flex;
-    flex-direction: column-reverse;
+    flex-direction: column;
     align-items: center;
     align-content: center;
     justify-content: center;
@@ -278,6 +274,13 @@
   .blogs {
     grid-template-columns: repeat(2, 1fr);
     margin-top: 6rem;
+  }
+
+  .about-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .about-container .right-about {
+    padding-top: 2.5rem;
   }
 
   .container {

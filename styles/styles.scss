@@ -142,7 +142,7 @@ section {
   padding: 3rem;
   justify-content: center;
   text-align: center;
-  margin: 6rem 1rem 0rem 1rem;
+  margin: 4rem 1rem 0rem 1rem;
   min-height: 30vh;
   border-radius: 15px;
   background-color: var(--header-background);
@@ -190,6 +190,7 @@ section {
 // }
 
 .footer-bottom {
+  margin: 2rem 0rem;
   text-align: center;
   padding-top: 2rem;
   font-size: 1rem;
@@ -726,7 +727,7 @@ section {
   display: flex;
   align-self: center;
   align-items: center;
-  margin: 3rem 0rem 1.5rem 8rem;
+  margin: 3.5rem 0rem 1.5rem 0rem;
   overflow: hidden;
   box-shadow: -5px 5px 6px var(--box-color-1),
               5px -5px 6px var(--box-color-2);

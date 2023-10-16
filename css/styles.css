@@ -961,17 +961,41 @@ section {
     justify-items: center;
     justify-self: center;
   }
+  .portfolios .portfolio-item .portfolio-item:hover .hover-items {
+    opacity: 1;
+  }
   .portfolios .portfolio-item img {
+    width: 20vh;
+    height: 20vh;
+  }
+  .portfolios .portfolio-item img:hover {
     width: 20vh;
     height: 20vh;
   }
   .portfolios .hover-items {
     width: 20vh !important;
-    height: 20vh;
+    height: 20vh !important;
     align-items: center;
     align-content: center;
     justify-content: center;
     justify-items: center;
+  }
+  .portfolios .hover-items h3 {
+    font-size: 0.8rem !important;
+    word-wrap: normal;
+    text-align: center;
+    justify-content: center;
+    color: var(--color-primary);
+    margin-bottom: 1.5rem;
+  }
+  .portfolios .hover-items h3:hover {
+    cursor: pointer;
+    scale: 1;
+    color: var(--box-color-1);
+  }
+  .portfolios .hover-items:hover {
+    width: 20vh;
+    height: 20vh;
   }
   .blogs {
     grid-template-columns: repeat(1, 1fr);

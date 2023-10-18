@@ -141,7 +141,6 @@ section {
   padding: 3rem;
   justify-content: center;
   text-align: center;
-  margin: 4rem 1rem 0rem 1rem;
   min-height: 30vh;
   border-radius: 15px;
   background-color: var(--header-background);
@@ -161,15 +160,14 @@ section {
   padding: 5px;
   text-align: center;
   font-size: calc(1px + 1rem);
-  margin: 0.7rem 2rem;
+  margin: 0.7rem 4rem;
   line-height: 2rem;
 }
 
 .footer-bottom {
-  margin: 2rem 0rem;
+  margin: 3rem 0rem;
   text-align: center;
-  padding-top: 2rem;
-  font-size: 1rem;
+  font-size: 0.7rem;
 }
 
 .about-container {
@@ -861,52 +859,19 @@ section {
   }
 
   .header-content {
-    margin: 1rem 0 0 0;
+    margin: 5rem 0 0 0;
     display: flex;
     flex-direction: column;
     align-items: center;
     align-content: center;
     justify-content: center;
   }
-  .header-content .left-header {
-    display: none;
-    align-items: center;
-    justify-content: center;
-    height: 15vh;
-    width: 15vh;
-  }
-  .header-content .left-header .h-shape {
-    display: none;
-  }
-  .header-content .left-header .image {
-    border-radius: 40px;
-    height: 15vh;
-    width: 15vh;
-    display: none;
-    margin: 0;
-  }
-  .header-content .left-header .image img {
-    height: 100%;
-    width: 100%;
-    border-radius: 40px;
+  .header-content p {
+    margin: 0.7rem 0.5rem !important;
   }
 
-  .right-header {
-    align-items: center;
-    justify-content: center;
-    align-content: center;
-    height: 60vh;
-    width: 50vw;
-    margin: 1rem 0rem 1rem 0rem;
-  }
-  .right-header .name {
-    font-size: 2.5rem;
-    text-align: center;
-    padding-top: 1rem;
-  }
-  .right-header p {
+  .footer-bottom {
     display: none;
-    font-size: 1.5rem;
   }
 
   .header-content .left-header .image {
@@ -1074,7 +1039,7 @@ section {
   .main-btn {
     justify-content: center;
     align-content: center;
-    margin: 4rem 0rem 0rem 0rem;
+    margin: 1rem 0rem 0rem 0rem;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1150px) {
@@ -1085,29 +1050,11 @@ section {
     align-content: center;
   }
 
-  .header-content .left-header {
-    height: 15vh;
-    width: 15vh;
-    align-content: center;
-    justify-content: center;
+  .header-content {
+    margin: 8.5rem 0 0 0;
   }
-  .header-content .left-header .h-shape {
-    display: none;
-  }
-  .header-content .left-header .image {
-    align-items: center;
-    height: 15vh;
-    width: 15vh;
-  }
-
-  .right-header {
-    width: 90%;
-    margin: 0;
-  }
-  .right-header .name {
-    font-size: 3rem;
-    text-align: center;
-    padding: 2rem;
+  .header-content p {
+    margin: 0.7rem 2.5rem !important;
   }
 
   .about-container {
@@ -1143,8 +1090,11 @@ section {
   }
 }
 @media screen and (min-width: 1151px) {
-  h1 {
-    margin: 1rem 1rem 1rem 1rem;
+  .header-content {
+    margin: 12rem 0 0 0;
+  }
+  .header-content p {
+    margin: 0.7rem 8.5rem !important;
   }
 
   .blogs {

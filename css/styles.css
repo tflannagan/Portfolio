@@ -860,18 +860,18 @@ section {
     height: 50px;
   }
   .header-content {
-    margin: 3rem 0 0 0;
+    margin: 6rem 0 0 0;
     display: flex;
     flex-direction: column;
     align-items: center;
     align-content: center;
     justify-content: center;
   }
+  .header-content .name {
+    font-size: 2rem;
+  }
   .header-content p {
     margin: 0.7rem 0.5rem !important;
-  }
-  .footer-bottom {
-    display: none;
   }
   .header-content .left-header .image {
     margin: 0 auto;
@@ -1039,9 +1039,6 @@ section {
   }
   .header-content p {
     margin: 0.7rem 2.5rem !important;
-  }
-  .footer-bottom {
-    display: none;
   }
   .about-container {
     grid-template-columns: repeat(1, 1fr);

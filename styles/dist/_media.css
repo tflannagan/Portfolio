@@ -200,7 +200,7 @@
   }
 
   .header-content {
-    margin: 8rem 0 0 0;
+    margin: 7rem 0 0 0;
   }
   .header-content p {
     margin: 0.7rem 2.5rem !important;
@@ -240,7 +240,7 @@
 }
 @media screen and (min-width: 1441px) {
   .header-content {
-    margin: 10rem 0 0 0;
+    margin: 8rem 0 0 0;
   }
   .header-content p {
     margin: 0.7rem 8.5rem !important;

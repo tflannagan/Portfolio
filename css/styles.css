@@ -860,7 +860,7 @@ section {
     height: 50px;
   }
   .header-content {
-    margin: 6rem 0 0 0;
+    margin: 4rem 0 0 0;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -1035,7 +1035,7 @@ section {
     align-content: center;
   }
   .header-content {
-    margin: 7rem 0 0 0;
+    margin: 5rem 0 0 0;
   }
   .header-content p {
     margin: 0.7rem 2.5rem !important;
@@ -1071,7 +1071,7 @@ section {
 }
 @media screen and (min-width: 1441px) {
   .header-content {
-    margin: 8rem 0 0 0;
+    margin: 6rem 0 0 0;
   }
   .header-content p {
     margin: 0.7rem 8.5rem !important;

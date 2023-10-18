@@ -1027,7 +1027,7 @@ section {
     margin: 1rem 0rem 0rem 0rem;
   }
 }
-@media screen and (min-width: 768px) and (max-width: 1150px) {
+@media screen and (min-width: 768px) and (max-width: 1440px) {
   .container {
     display: flex;
     flex-direction: column;
@@ -1035,10 +1035,13 @@ section {
     align-content: center;
   }
   .header-content {
-    margin: 4.5rem 0 0 0;
+    margin: 8rem 0 0 0;
   }
   .header-content p {
     margin: 0.7rem 2.5rem !important;
+  }
+  .footer-bottom {
+    display: none;
   }
   .about-container {
     grid-template-columns: repeat(1, 1fr);
@@ -1069,9 +1072,9 @@ section {
     font-size: 2.5rem;
   }
 }
-@media screen and (min-width: 1151px) {
+@media screen and (min-width: 1441px) {
   .header-content {
-    margin: 8rem 0 0 0;
+    margin: 10rem 0 0 0;
   }
   .header-content p {
     margin: 0.7rem 8.5rem !important;

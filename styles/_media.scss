@@ -211,7 +211,7 @@
     }
 
 }
-//Between 768 - 1650 (Tablet)
+//Between 768 - 1440 (Tablet)
 @media screen and (min-width: 768px) and (max-width: 1440px) {
 .container{
     display: flex;
@@ -264,7 +264,7 @@
         }
     }
 }
-//Greater than 1651 (Desktop)
+//Greater than 1441 (Desktop)
 @media screen and (min-width: 1441px) {
     // h1 {
     //     margin: 1rem 1rem 1rem 1rem;
@@ -272,7 +272,7 @@
     
 
     .header-content{
-        margin: 6rem 0 0 0;
+        margin: 7.5rem 0 0 0;
         p {
             margin: 0.7rem 8.5rem !important;
           }

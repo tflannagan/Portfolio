@@ -144,6 +144,8 @@ section {
   min-height: 30vh;
   border-radius: 15px;
   background-color: var(--header-background);
+  -ms-overflow-style: none; /* Internet Explorer 10+ */
+  scrollbar-width: none;
 }
 .header-content .name {
   margin: 0;
@@ -162,6 +164,10 @@ section {
   font-size: calc(1px + 1rem);
   margin: 0.7rem 4rem;
   line-height: 2rem;
+}
+
+.container::-webkit-scrollbar {
+  display: none; /* Safari and Chrome */
 }
 
 .footer-bottom {
@@ -1035,7 +1041,7 @@ section {
     align-content: center;
   }
   .header-content {
-    margin: 5rem 0 0 0;
+    margin: 7.5rem 0 0 0;
   }
   .header-content p {
     margin: 0.7rem 2.5rem !important;
@@ -1071,7 +1077,7 @@ section {
 }
 @media screen and (min-width: 1441px) {
   .header-content {
-    margin: 7.5rem 0 0 0;
+    margin: 10rem 0 0 0;
   }
   .header-content p {
     margin: 0.7rem 8.5rem !important;

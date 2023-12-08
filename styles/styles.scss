@@ -143,6 +143,8 @@ section {
   min-height: 30vh;
   border-radius: 15px;
   background-color: var(--header-background);
+  -ms-overflow-style: none;  /* Internet Explorer 10+ */
+  scrollbar-width: none;
   .name {
     margin: 0;
     text-align: center;
@@ -164,6 +166,11 @@ section {
     line-height: 2rem;
   }
 }
+
+.container::-webkit-scrollbar { 
+  display: none;  /* Safari and Chrome */
+}
+
 
 .footer-bottom {
   margin: 3rem 0rem;

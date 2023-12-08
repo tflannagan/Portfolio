@@ -213,46 +213,46 @@
 }
 //Between 768 - 1440 (Tablet)
 @media screen and (min-width: 768px) and (max-width: 1440px) {
-.container{
-    display: flex;
-    flex-direction: column;
-        padding: 2rem 7rem;
-        align-content: center;
-        
-    }
-
-.header-content{
-    margin: 5rem 0 0 0;
-    p {
-        margin: 0.7rem 2.5rem !important;
-      }
-    }
-
-  
-
-.about-container{
-        grid-template-columns: repeat(1, 1fr);
-        .right-about{
-            padding-top: 2.5rem;
+    .container{
+        display: flex;
+        flex-direction: column;
+            padding: 2rem 7rem;
+            align-content: center;
+            
         }
-    }
 
-.about-container .left-about{
-        padding-right: 0rem;
-    }
+    .header-content{
+        margin: 7.5rem 0 0 0;
+        p {
+            margin: 0.7rem 2.5rem !important;
+        }
+        }
 
-.portfolios{
-        overflow: wrap;
-        width: 100%;
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        justify-content: center;
-        align-content: center;
-        align-items: center;
-        justify-items: center;
-    }
+    
 
-.main-title{
+    .about-container{
+            grid-template-columns: repeat(1, 1fr);
+            .right-about{
+                padding-top: 2.5rem;
+            }
+        }
+
+    .about-container .left-about{
+            padding-right: 0rem;
+        }
+
+    .portfolios{
+            overflow: wrap;
+            width: 100%;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            justify-content: center;
+            align-content: center;
+            align-items: center;
+            justify-items: center;
+        }
+
+    .main-title{
         h2{
             font-size: 3rem;
             span{
@@ -272,7 +272,7 @@
     
 
     .header-content{
-        margin: 7.5rem 0 0 0;
+        margin: 10rem 0 0 0;
         p {
             margin: 0.7rem 8.5rem !important;
           }

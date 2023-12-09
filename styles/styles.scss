@@ -145,7 +145,7 @@ section {
   min-height: 30vh;
   border-radius: 15px;
   background-color: var(--header-background);
-  -ms-overflow-style: none;  /* Internet Explorer 10+ */
+  -ms-overflow-style: none; 
   scrollbar-width: none;
   .name {
     margin: 0;

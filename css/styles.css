@@ -52,6 +52,7 @@ body {
   color: var(--color-white);
   transition: all 0.4s ease-in-out;
   overflow: auto;
+  margin: 0 auto;
 }
 
 body::-webkit-scrollbar {
@@ -1033,7 +1034,7 @@ section {
     margin: 1rem 0rem 0rem 0rem;
   }
 }
-@media screen and (min-width: 481px) and (max-width: 1024px) {
+@media screen and (min-width: 481px) and (max-width: 1259px) {
   .container {
     display: flex;
     flex-direction: column;
@@ -1075,9 +1076,9 @@ section {
     font-size: 2.5rem;
   }
 }
-@media screen and (min-width: 1025px) {
+@media screen and (min-width: 1260px) {
   .header-content {
-    margin: 9.5rem 0 0 0;
+    margin: 10.5rem 0 0 0;
   }
   .header-content p {
     margin: 0.7rem 8.5rem !important;

@@ -211,7 +211,7 @@
 
 }
 //Between 768 - 1440 (Tablet/laptop)
-@media screen and (min-width: 481px) and (max-width: 1024px) {
+@media screen and (min-width: 481px) and (max-width: 1259px) {
     .container{
         display: flex;
         flex-direction: column;
@@ -262,10 +262,10 @@
     }
 }
 //Greater than 1441 (Desktop)
-@media screen and (min-width: 1025px) {  
+@media screen and (min-width: 1260px) {  
 
     .header-content{
-        margin: 9.5rem 0 0 0;
+        margin: 10.5rem 0 0 0;
         p {
             margin: 0.7rem 8.5rem !important;
           }

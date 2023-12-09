@@ -58,6 +58,7 @@ body {
   color: var(--color-white);
   transition: all .4s ease-in-out;
   overflow: auto;
+  margin: 0 auto;
 }
 
 body::-webkit-scrollbar {
@@ -138,10 +139,10 @@ section {
   flex-direction: column;
   z-index: 2;
   align-items: center;
-  padding: 3rem;
+  padding: 1rem;
   justify-content: center;
   text-align: center;
-  // margin: 8rem 1rem 0rem 1rem;
+  transform: translate(0, 50%);
   min-height: 30vh;
   border-radius: 15px;
   background-color: var(--header-background);

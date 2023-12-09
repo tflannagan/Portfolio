@@ -1,5 +1,5 @@
 //Up to 767px (Mobile)
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 425px) {
     header {
         padding: 0 !important;
     }
@@ -212,7 +212,7 @@
 
 }
 //Between 768 - 1440 (Tablet)
-@media screen and (min-width: 768px) and (max-width: 1440px) {
+@media screen and (min-width: 426px) and (max-width: 1024px) {
     .container{
         display: flex;
         flex-direction: column;
@@ -265,7 +265,7 @@
     }
 }
 //Greater than 1441 (Desktop)
-@media screen and (min-width: 1441px) {  
+@media screen and (min-width: 1025px) {  
 
     .header-content{
         margin: 9rem 0 0 0;

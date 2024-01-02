@@ -212,17 +212,17 @@
 
 }
 //Between 768 - 1440 (Tablet/laptop)
-@media screen and (min-width: 481px) and (max-width: 1024px) {
+@media screen and (min-width: 481px) and (max-width: 1440) {
     .container{
         display: flex;
         flex-direction: column;
-            padding: 0rem 1rem;
+            padding: 0rem;
             align-content: center;
             
         }
 
     .header-content{
-        transform: translate(0, 25%) !important;
+        transform: translate(0, 15%) !important;
         p {
             margin: 0.7rem 1.5rem !important;
         }
@@ -263,12 +263,12 @@
     }
 }
 //Greater than 1441 (Desktop)
-@media screen and (min-width: 1025px) {  
+@media screen and (min-width: 1441px) {  
 
     .header-content{
         
         p {
-            margin: 0.7rem 8.5rem !important;
+            margin: 0.7rem 2.5rem !important;
           }
         }
     .blogs{

@@ -5,7 +5,7 @@
   list-style: none;
   transition: all 0.2s ease;
   // font-family: 'Sono', sans-serif;
-  font-family: 'Silkscreen', sans-serif;
+  font-family: "Shadows Into Light", cursive;
 
 }
 
@@ -53,7 +53,7 @@
 body {
   background:
     var(--color-primary);
-  font-family: 'Sono', sans-serif;
+  // font-family: 'Sono', sans-serif;
   font-size: 1.1rem;
   color: var(--color-white);
   transition: all .4s ease-in-out;
@@ -84,6 +84,7 @@ a {
 
 header {
   min-height: 100vh;
+  margin: 0;
   position: relative;
   color: var(--color-white);
   overflow: hidden;
@@ -139,19 +140,19 @@ section {
   flex-direction: column;
   z-index: 2;
   align-items: center;
-  padding: 1rem;
+  padding: 10rem 4rem;
   justify-content: center;
   text-align: center;
-  transform: translate(0, 50%);
+  transform: translate(0, 40%);
   min-height: 30vh;
+  letter-spacing: 7px;
   border-radius: 15px;
   background-color: var(--header-background);
-  // -ms-overflow-style: none; 
-  // scrollbar-width: none;
+
   .name {
     margin: 0;
     text-align: center;
-    font-size: 3rem;
+    font-size: 4rem;
     span { 
       color: var(--color-secondary); 
     }
@@ -196,6 +197,7 @@ section {
       grid-template-columns: repeat(2, 1fr);
       grid-gap: 2rem;
       .about-item {
+        height: 25vh;
           border: 1px solid var(--color-primary);
           border-radius: 25px;
           transition: all .4s ease-in-out;
@@ -242,7 +244,7 @@ section {
       padding-right: 0rem;
       p {
           line-height:2rem;
-          font-size: 1rem;
+          font-size: 1.5rem;
           padding: 1rem;
           color: var(--color-grey-1);
       }
@@ -378,7 +380,7 @@ section {
   grid-template-columns: 1fr 1fr 1fr;
   column-gap: 2rem;
   row-gap: 3rem;
-  
+  margin: 2rem 5rem;
   justify-self: center;
   justify-content: center;
   align-content: center;
@@ -395,8 +397,8 @@ section {
     border: 1px solid var(--color-primary);
     align-content: center;
     justify-content: center;
-      width: 50vh;
-      height: 40vh;
+      width: 25vw;
+      height: 30vh;
       position: relative;
       border-radius: 45px;
       box-shadow: 6px -6px 15px var(--box-color-1),
@@ -407,8 +409,8 @@ section {
       }
       
       img {
-          width: 50vh;
-          height: 40vh;
+          width: 25vw;
+          height: 30vh;
           object-fit: cover;
           border-radius: 45px;
           transition: all 1s ease;
@@ -421,8 +423,8 @@ section {
       }
      
       .hover-items {
-        width: 50vh;
-        height: 40vh;
+        width: 25vw;
+        height: 30vh;
           background-color: var(--color-secondary);
           position: absolute;
           left: 0;
@@ -575,6 +577,7 @@ section {
   display: flex;
   margin: 2rem 7rem;
   padding-top: 3.5rem;
+  transform: translate(0, 40%);
   .left-contact {
       flex: 2;
       h4 {
@@ -707,18 +710,19 @@ section {
 .main-btn {
   border-radius: 40px;
   color: inherit;
-  font-weight: 600;
+  font-weight: 500;
   position: relative;
-
+  justify-content: center;
   display: flex;
   align-self: center;
+  justify-items: center;
   align-items: center;
   margin: 3.5rem 0rem 1.5rem 0rem;
   overflow: hidden;
   box-shadow: -5px 5px 6px var(--box-color-1),
               5px -5px 6px var(--box-color-2);
   .btn-text { 
-    font-size: 1rem;
+    font-size: 0.9rem;
     padding: 0 2rem; }
   .btn-icon {
     background-color: var(--color-secondary);
@@ -843,6 +847,8 @@ section {
 
 
 //Icons
+
+
 .fa-container {
   display: flex;
   flex-direction: row;

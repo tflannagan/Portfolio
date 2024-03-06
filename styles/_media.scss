@@ -2,14 +2,16 @@
 @media screen and (max-width: 480px) {
     header {
         padding: 0 !important;
+        
     }
     .theme-btn{
         width: 50px;
         height: 50px;
     }
     .header-content{
-        margin: 4rem 0 0 0 !important;
-        transform: translate(0, 0) !important;
+        margin: 0;
+        transform: translate(0, 20%);
+       
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -206,7 +208,7 @@
     .main-btn {
         justify-content: center;
         align-content: center;
-        margin: 1rem 0rem 0rem 0rem;
+        // margin: 1rem 0rem 0rem 0rem;
        
     }
 
@@ -216,23 +218,24 @@
     .container{
         display: flex;
         flex-direction: column;
-            padding: 0rem;
+            // padding: 0rem 4rem;
             align-content: center;
             
         }
 
     .header-content{
-        transform: translate(0, 15%) !important;
-        p {
-            margin: 0.7rem 1.5rem !important;
-        }
+        
+        // p {
+        //     margin: 0.7rem 2.5rem !important;
+        
+        // }
         }
 
     .about-container{
-            grid-template-columns: repeat(1, 1fr);
-            .right-about{
-                padding-top: 2.5rem;
-            }
+        grid-template-columns: repeat(1, 1fr);
+        .right-about{
+            padding-top: 2.5rem;
+        }
         }
 
     .about-container .left-about{
@@ -265,12 +268,6 @@
 //Greater than 1441 (Desktop)
 @media screen and (min-width: 1441px) {  
 
-    .header-content{
-        
-        p {
-            margin: 0.7rem 2.5rem !important;
-          }
-        }
     .blogs{
         grid-template-columns: repeat(2, 1fr);
         margin-top: 6rem;

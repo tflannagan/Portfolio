@@ -1,4 +1,4 @@
-# Ty Flannagan's Portfolio
+# Ty's Portfolio
 
 This repository contains the source code for Ty Flannagan's personal portfolio website. The site showcases Ty's skills as a Developer and Analyst through a visually engaging and interactive design.
 

@@ -296,9 +296,9 @@ function getPageContent(pageName) {
     case "About":
       return `
       <h1 class="page-title">About Me</h1>
-      <p class="content-text">Front-End Developer with a unique blend of skills in web development and cybersecurity. Experienced in crafting secure and engaging user interfaces. Proficient in HTML5, CSS3, JavaScript, and secure coding standards. Dedicated to continuous learning and applying the latest technologies.</p>
+      <p class="content-text">Developer with a unique blend of skills in web development, data analysis and cybersecurity. Experienced in crafting secure, engaging user interfaces with the customer experience always in mind. Proficient in a multitude of code languages. Dedicated to the continuous learning journey.</p>
       <br>
-      <p class="content-text">With over 8 years of experience in the tech industry and 15 years of total work experience, I have successfully contributed to a wide range of projects, including front-end web development and cybersecurity initiatives. My expertise with modern web frameworks and tools, combined with a strong foundation in cybersecurity principles, enables me to develop secure, responsive, and user-friendly web applications.</p>
+      <p class="content-text">Over 9 years of experience in the tech industry and 15 total years of continuous work experience on a wide range of projects include website design, machine learning models, and IT customer service.</p>
       <div class="btn-con">
       
       
